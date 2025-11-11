@@ -1,0 +1,113 @@
+# =============================================
+# Server .gitignore
+# =============================================
+
+# Visual Studio / IDE files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+**/dist/
+**/builds/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+
+# Log files - không commit
+**/*.log.*
+**/*.log[0-9]*
+**/*Error.log.*
+**/*FlashError.log.*
+**/*GameServer.log*
+**/*Server.log*
+**/Error.log.*
+**/FlashError.log.*
+**/GameServer.log*
+**/FlashError.log*
+*.log.[0-9]*
+*.log[0-9]*
+
+# Logs directories
+**/logs/
+**/*/logs/
+GameSrc/**/logs/
+GameSrc/**/bin/**/logs/
+Output/**/logs/
+
+# Specific log files
+Error.log.*
+FlashError.log.*
+GameServer.log*
+Server.log*
+BanLog.txt
+MuteLog.txt
+*Log.txt
+
+# Bomb files - không commit
+**/bomb/
+GameSrc/**/bomb/
+Output/**/bomb/
+
+# Map files - không commit
+**/map/
+GameSrc/**/map/
+Output/**/map/
+
+# Resource.Server - ignore image và sound content nhưng giữ folder structure
+Web/Resource.Server/image/**
+!Web/Resource.Server/image/
+!Web/Resource.Server/image/.gitkeep
+Web/Resource.Server/sound/**
+!Web/Resource.Server/sound/
+!Web/Resource.Server/sound/.gitkeep
+
+# Node modules
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP / Composer
+vendor/
+composer.lock
+.env
+.env.backup
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archive files
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Output directories (nếu không cần commit)
+Output/**/*.dll
+Output/**/*.exe
+Output/**/*.pdb
+Output/**/*.bak
+Output/**/*Log.txt
+
