@@ -1,0 +1,22 @@
+<Result value="true" message="Success!">
+  <item ID="1" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="2" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="3" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="4" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="5" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="6" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="7" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="8" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="9" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="10" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="11" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="12" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="13" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="14" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="15" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="16" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="17" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="18" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="19" Type="1" NeedMoney="1000" AddHonor="200" />
+  <item ID="20" Type="1" NeedMoney="1000" AddHonor="200" />
+</Result>

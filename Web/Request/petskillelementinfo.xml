@@ -1,0 +1,310 @@
+<Result value="true" message="Success!">
+  <item ID="1001" Name="Tăng thêm 1 đạn" EffectPic="" Description="" Pic="-1" />
+  <item ID="1002" Name="Nhận được kỹ năng 4" EffectPic="" Description="" Pic="-1" />
+  <item ID="1003" Name="Nhận được kỹ năng 5" EffectPic="" Description="" Pic="-1" />
+  <item ID="1004" Name="Nhận được kỹ năng 6" EffectPic="" Description="" Pic="-1" />
+  <item ID="1005" Name="Nhận được kỹ năng 10" EffectPic="" Description="" Pic="-1" />
+  <item ID="1006" Name="Nhận được kỹ năng 11" EffectPic="" Description="" Pic="-1" />
+  <item ID="1007" Name="Nhận được kỹ năng 12" EffectPic="" Description="" Pic="-1" />
+  <item ID="1008" Name="Nhận được kỹ năng 16" EffectPic="" Description="" Pic="-1" />
+  <item ID="1009" Name="Nhận được kỹ năng 17" EffectPic="" Description="" Pic="-1" />
+  <item ID="1010" Name="Nhận được kỹ năng 18" EffectPic="" Description="" Pic="-1" />
+  <item ID="1011" Name="Nhận được kỹ năng 22" EffectPic="" Description="" Pic="-1" />
+  <item ID="1012" Name="Nhận được kỹ năng 23" EffectPic="" Description="" Pic="-1" />
+  <item ID="1013" Name="Nhận được kỹ năng 24" EffectPic="" Description="" Pic="-1" />
+  <item ID="1014" Name="Gây 50 điểm sát thương" EffectPic="" Description="" Pic="-1" />
+  <item ID="1015" Name="Gây 100 điểm sát thương" EffectPic="" Description="" Pic="-1" />
+  <item ID="1016" Name="Gây 150 điểm sát thương" EffectPic="" Description="" Pic="-1" />
+  <item ID="1017" Name="Di chuyển không thể" EffectPic="" Description="Không thể di chuyển" Pic="-1" />
+  <item ID="1018" Name="Bất Động Lv1" EffectPic="effect003" Description="Nhận được miễn kháng, tăng hiệu quả phòng ngự, nhưng không thể di chuyển." Pic="3" />
+  <item ID="1019" Name="Bất Động Lv2" EffectPic="effect003" Description="Nhận được miễn kháng, tăng hiệu quả phòng ngự, nhưng không thể di chuyển." Pic="3" />
+  <item ID="1020" Name="Bất Động Lv3" EffectPic="effect003" Description="Nhận được miễn kháng, tăng hiệu quả phòng ngự, nhưng không thể di chuyển." Pic="3" />
+  <item ID="1021" Name="miễn kháng" EffectPic="" Description="Duy trì 2 TURN" Pic="-1" />
+  <item ID="1022" Name="Khiên Gà Lv1" EffectPic="effect017" Description="Tăng hộ giáp." Pic="2" />
+  <item ID="1023" Name="Khiên Gà Lv2" EffectPic="effect017" Description="Tăng hộ giáp." Pic="2" />
+  <item ID="1024" Name="Kiếm Gà Lv1" EffectPic="effect016" Description="Tăng sát thương." Pic="1" />
+  <item ID="1025" Name="Kiếm Gà Lv2" EffectPic="effect016" Description="Tăng sát thương." Pic="1" />
+  <item ID="1026" Name="Hoa Nở Lv1" EffectPic="effect002" Description="Hồi phục HP." Pic="5" />
+  <item ID="1027" Name="Hoa Nở Lv2" EffectPic="effect002" Description="Hồi phục HP." Pic="5" />
+  <item ID="1028" Name="Hoa Nở Lv3" EffectPic="effect002" Description="Hồi phục HP." Pic="5" />
+  <item ID="1029" Name="Càng Đánh Càng Mạnh Lv1" EffectPic="effect007" Description="Giảm sát thương chịu được." Pic="7" />
+  <item ID="1030" Name="Càng Đánh Càng Mạnh Lv2" EffectPic="effect007" Description="Giảm sát thương chịu được." Pic="7" />
+  <item ID="1031" Name="Càng Đánh Càng Mạnh Lv3" EffectPic="effect007" Description="Giảm sát thương chịu được." Pic="7" />
+  <item ID="1032" Name="Nhận được kỹ năng 53" EffectPic="" Description="" Pic="-1" />
+  <item ID="1033" Name="Nhận được kỹ năng 54" EffectPic="" Description="" Pic="-1" />
+  <item ID="1034" Name="Nhận được kỹ năng 55" EffectPic="" Description="" Pic="-1" />
+  <item ID="1035" Name="Sát thương tăng 10%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1036" Name="Sát thương tăng 20%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1037" Name="Sát thương tăng 30%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1038" Name="Dẫn đường" EffectPic="" Description="" Pic="-1" />
+  <item ID="1039" Name="Sát thương tăng 150%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1040" Name="Gà Chúc Phúc Lv1" EffectPic="effect014" Description="Tăng may mắn." Pic="4" />
+  <item ID="1041" Name="Gà Chúc Phúc Lv2" EffectPic="effect014" Description="Tăng may mắn." Pic="4" />
+  <item ID="1042" Name="Gà Chúc Phúc Lv3" EffectPic="effect014" Description="Tăng may mắn." Pic="4" />
+  <item ID="1043" Name="Hồi phục chậm Lv1" EffectPic="effect033" Description="Hồi phục HP." Pic="5" />
+  <item ID="1044" Name="Hồi phục chậm Lv2" EffectPic="effect033" Description="Hồi phục HP." Pic="5" />
+  <item ID="1045" Name="Hồi phục chậm Lv3" EffectPic="effect033" Description="Hồi phục HP." Pic="5" />
+  <item ID="1046" Name="Hòn Kiến Lửa Lv1" EffectPic="effect012" Description="Tăng phòng ngự." Pic="3" />
+  <item ID="1047" Name="Hòn Kiến Lửa Lv2" EffectPic="effect012" Description="Tăng phòng ngự." Pic="3" />
+  <item ID="1048" Name="Hòn Kiến Lửa Lv3" EffectPic="effect012" Description="Tăng phòng ngự." Pic="3" />
+  <item ID="1049" Name="Bắn Chỉ Định Lv1" EffectPic="effect019" Description="Tăng hộ giáp, hiệu quả sẽ biến mất khi di chuyển." Pic="2" />
+  <item ID="1050" Name="Bắn Chỉ Định Lv2" EffectPic="effect019" Description="Tăng hộ giáp, hiệu quả sẽ biến mất khi di chuyển." Pic="2" />
+  <item ID="1051" Name="Hộ giáp tăng 50 điểm" EffectPic="effect017" Description="" Pic="-1" />
+  <item ID="1052" Name="Hộ giáp tăng 70 điểm" EffectPic="effect017" Description="" Pic="-1" />
+  <item ID="1053" Name="Hiệu quả giải trừ" EffectPic="" Description="" Pic="-1" />
+  <item ID="1054" Name="Hiệu quả giải trừ" EffectPic="" Description="" Pic="-1" />
+  <item ID="1055" Name="Nhận được kỹ năng 58" EffectPic="" Description="" Pic="-1" />
+  <item ID="1056" Name="Mưa Thần Lv1" EffectPic="effect005" Description="" Pic="-1" />
+  <item ID="1057" Name="Mưa Thần Lv2" EffectPic="effect005" Description="" Pic="-1" />
+  <item ID="1058" Name="Hồi phục 1000 HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1059" Name="Hồi phục 3000 HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1060" Name="Nhận được kỹ năng 47" EffectPic="" Description="" Pic="-1" />
+  <item ID="1061" Name="Nhận được kỹ năng 48" EffectPic="" Description="" Pic="-1" />
+  <item ID="1062" Name="Nhận được kỹ năng 49" EffectPic="" Description="" Pic="-1" />
+  <item ID="1063" Name="Bách Luân Nở Hoa Lv1" EffectPic="effect006" Description="Hồi phục HP." Pic="5" />
+  <item ID="1064" Name="Bách Luân Nở Hoa Lv2" EffectPic="effect006" Description="Hồi phục HP." Pic="5" />
+  <item ID="1065" Name="Nhận được kỹ năng 63" EffectPic="" Description="" Pic="-1" />
+  <item ID="1066" Name="Nhận được kỹ năng 64" EffectPic="" Description="" Pic="-1" />
+  <item ID="1067" Name="Gai Kiến Lv1" EffectPic="effect001" Description="Phản sát thương." Pic="9" />
+  <item ID="1068" Name="Gai Kiến Lv2" EffectPic="effect001" Description="Phản sát thương." Pic="9" />
+  <item ID="1069" Name="Nhận được kỹ năng 70" EffectPic="" Description="" Pic="-1" />
+  <item ID="1070" Name="Nhận được kỹ năng 71" EffectPic="" Description="" Pic="-1" />
+  <item ID="1071" Name="Hiệu quả giải trừ 1072, 1073" EffectPic="" Description="" Pic="-1" />
+  <item ID="1072" Name="Hỏa Lực Cao Lv1" EffectPic="effect016" Description="Tăng sát thương, bị công kích sẽ mất." Pic="1" />
+  <item ID="1073" Name="Hỏa Lực Cao Lv2" EffectPic="effect016" Description="" Pic="1" />
+  <item ID="1074" Name="Tăng cường 300 hiệu quả thiên sứ ban phúc" EffectPic="" Description="" Pic="-1" />
+  <item ID="1075" Name="Tăng cường 600 hiệu quả thiên sứ ban phúc" EffectPic="" Description="" Pic="-1" />
+  <item ID="1076" Name="Thú cưng gây 200 sát thương xung quanh" EffectPic="effect036" Description="" Pic="-1" />
+  <item ID="1077" Name="Thú cưng gây 400 sát thương xung quanh" EffectPic="effect036" Description="" Pic="-1" />
+  <item ID="1078" Name="Lập tức hồi phục 500 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1079" Name="Lập tức hồi phục 1000 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1080" Name="Hồi phục 300 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1081" Name="Hồi phục 600 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1082" Name="Luôn miễn kháng" EffectPic="" Description="" Pic="-1" />
+  <item ID="1083" Name="Pháo Đài V3 Lv1" EffectPic="effect018" Description="Nhận được miễn kháng, tăng công kích, may mắn, giảm hiệu quả phòng ngự, lúc di c" Pic="6" />
+  <item ID="1084" Name="Pháo Đài V3 Lv2" EffectPic="effect018" Description="Nhận được miễn kháng, tăng công kích, may mắn, giảm hiệu quả phòng ngự, lúc di c" Pic="6" />
+  <item ID="1085" Name="May mắn tăng 500" EffectPic="" Description="" Pic="-1" />
+  <item ID="1086" Name="May mắn tăng 800" EffectPic="" Description="" Pic="-1" />
+  <item ID="1087" Name="Phòng ngự giảm 1000" EffectPic="" Description="" Pic="-1" />
+  <item ID="1088" Name="Phòng ngự giảm 800" EffectPic="" Description="" Pic="-1" />
+  <item ID="1089" Name="Nhận được kỹ năng 88" EffectPic="" Description="" Pic="-1" />
+  <item ID="1090" Name="Hiệu quả giải trừ 1082,1083,1084,1085" EffectPic="" Description="" Pic="-1" />
+  <item ID="1091" Name="Hiệu quả giải trừ 1086,1087,1088" EffectPic="" Description="" Pic="-1" />
+  <item ID="1092" Name="Cạn Ly Lv1" EffectPic="effect004" Description="Tăng công kích, phòng ngự, nhanh nhẹn, may mắn, HP tối đa." Pic="10" />
+  <item ID="1093" Name="Cạn Ly Lv2" EffectPic="effect004" Description="Tăng công kích, phòng ngự, nhanh nhẹn, may mắn, HP tối đa." Pic="10" />
+  <item ID="1094" Name="Phòng ngự tăng 100" EffectPic="" Description="" Pic="-1" />
+  <item ID="1095" Name="Phòng ngự tăng 300" EffectPic="" Description="" Pic="-1" />
+  <item ID="1096" Name="Nhanh nhẹn tăng100" EffectPic="" Description="" Pic="-1" />
+  <item ID="1097" Name="Nhanh nhẹn tăng300" EffectPic="" Description="" Pic="-1" />
+  <item ID="1098" Name="May mắn tăng 100" EffectPic="" Description="" Pic="-1" />
+  <item ID="1099" Name="May mắn tăng 300" EffectPic="" Description="" Pic="-1" />
+  <item ID="1100" Name="HP tối đa tăng 1000" EffectPic="" Description="" Pic="-1" />
+  <item ID="1101" Name="HP tối đa tăng 2000" EffectPic="" Description="" Pic="-1" />
+  <item ID="1102" Name="HP hồi phục 500" EffectPic="" Description="" Pic="-1" />
+  <item ID="1103" Name="HP hồi phục 1000" EffectPic="" Description="" Pic="-1" />
+  <item ID="1104" Name="Pháo Bay Lượn*800" EffectPic="" Description="" Pic="-1" />
+  <item ID="1105" Name="Pháo Bay Lượn*1000" EffectPic="" Description="" Pic="-1" />
+  <item ID="1106" Name="Nhận được 1 điểm ma pháp" EffectPic="" Description="" Pic="-1" />
+  <item ID="1107" Name="Nhận được 50 điểm ma pháp" EffectPic="" Description="" Pic="-1" />
+  <item ID="1108" Name="Nhận được 3 điểm ma pháp" EffectPic="" Description="" Pic="-1" />
+  <item ID="1109" Name="Nhận được kỹ năng 98" EffectPic="" Description="" Pic="-1" />
+  <item ID="1110" Name="Giải trừ 50 điểm phép thuật" EffectPic="" Description="" Pic="-1" />
+  <item ID="1111" Name="Gai Kiến Lv1" EffectPic="effect008" Description="Phản sát thương. (TIPS ở 1067)" Pic="-1" />
+  <item ID="1112" Name="Gai Kiến Lv2" EffectPic="effect008" Description="Phản sát thương. (TIPS ở 1068)" Pic="-1" />
+  <item ID="1113" Name="Phản 300 điểm sát thương" EffectPic="effect008" Description="" Pic="-1" />
+  <item ID="1114" Name="Phản 500 điểm sát thương" EffectPic="effect008" Description="" Pic="-1" />
+  <item ID="1115" Name="Hồi phục 500 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1116" Name="Hồi phục 1000 điểm HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1117" Name="Tiếp Cận" EffectPic="effect035" Description="Có thể đỡ được lượng lớn sát thương." Pic="7" />
+  <item ID="1118" Name="Tăng Tốc Sinh Trưởng Lv1" EffectPic="" Description="Tăng phòng ngự." Pic="3" />
+  <item ID="1119" Name="Tăng Tốc Sinh Trưởng Lv2" EffectPic="" Description="Tăng phòng ngự." Pic="3" />
+  <item ID="1120" Name="Kén Trùng Lv1" EffectPic="" Description="Tăng hộ giáp." Pic="2" />
+  <item ID="1121" Name="Kén Trùng Lv2" EffectPic="" Description="Tăng hộ giáp." Pic="2" />
+  <item ID="1122" Name="Thú Cưng Tấn Công Lv1" EffectPic="" Description="% sat thương công kích" Pic="-1" />
+  <item ID="1123" Name="Thú Cưng Tấn Công Lv2" EffectPic="" Description="% sat thương công kích" Pic="-1" />
+  <item ID="1124" Name="Thú Cưng Tấn Công Lv3" EffectPic="" Description="% sat thương công kích" Pic="-1" />
+  <item ID="1125" Name="Sát thương tăng 100%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1126" Name="Sát thương tăng 120%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1127" Name="Sát thương tăng 140%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1128" Name="Sát thương tăng 300%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1129" Name="Sát thương tăng 350%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1130" Name="Công kích giảm 200" EffectPic="" Description="Công kích giảm 200" Pic="-1" />
+  <item ID="1131" Name="Công kích giảm 150" EffectPic="" Description="Công kích giảm 150" Pic="-1" />
+  <item ID="1132" Name="Công kích giảm 100" EffectPic="" Description="Công kích giảm 100" Pic="-1" />
+  <item ID="1133" Name="Sát thương tăng 120%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1134" Name="Sát thương tăng 180%" EffectPic="" Description="" Pic="-1" />
+  <item ID="1135" Name="Giảm 500 điểm sát thương chịu được" EffectPic="effect007" Description="Giảm 500 điểm sát thương chịu được" Pic="7" />
+  <item ID="1136" Name="duy trì phản kích" EffectPic="effect001" Description="duy trì phản kích" Pic="-1" />
+  <item ID="1137" Name="phản dame" EffectPic="effect034" Description="hiệu ứng phản dame" Pic="-1" />
+  <item ID="1138" Name="100% xác suất bạo kích" EffectPic="" Description="100% bạo kích" Pic="-1" />
+  <item ID="1139" Name="Thú cưng công kích Lv2 (rồng chuyên dùng)" EffectPic="" Description="x% sát thương của thú cưng công kích" Pic="-1" />
+  <item ID="1149" Name="Thú cưng công kích Lv3 (rồng chuyên dùng)" EffectPic="" Description="x% sát thương của thú cưng công kích" Pic="-1" />
+  <item ID="1150" Name="Long hỏa đạn Lv1" EffectPic="effect042" Description="giảm 200 HP, kéo dài 3 hiệp" Pic="14" />
+  <item ID="1151" Name="Long hỏa đạn Lv2" EffectPic="effect042" Description="giảm 300 HP, kéo dài 3 hiệp" Pic="14" />
+  <item ID="1152" Name="Long hỏa đạn Lv3" EffectPic="effect042" Description="giảm 500 HP, kéo dài 3 hiệp" Pic="14" />
+  <item ID="1153" Name="Khế ước tà long Lv2" EffectPic="effect039" Description="tăng 50 sát thương" Pic="13" />
+  <item ID="1154" Name="Khế ước tà long Lv2" EffectPic="effect039" Description="tăng 100 sát thương" Pic="13" />
+  <item ID="1155" Name="Khế ước tà long Lv1" EffectPic="" Description="Hộ giáp giảm 70" Pic="-1" />
+  <item ID="1156" Name="Khế ước tà long Lv2" EffectPic="" Description="Hộ giáp giảm 120" Pic="-1" />
+  <item ID="1157" Name="Hồn long bảo hộ Lv1" EffectPic="effect033" Description="Hồi phục 500 HP" Pic="-1" />
+  <item ID="1158" Name="Hồn long bảo hộ Lv1" EffectPic="effect033" Description="Hồi phục 1000 HP" Pic="-1" />
+  <item ID="1159" Name="Hỏa long ấn kí" EffectPic="effect040" Description="Khi đến lượt của mình sẽ bị rồng công kích" Pic="14" />
+  <item ID="1160" Name="Hỏa long ấn kí" EffectPic="effect041" Description="Khi đến lượt của mình sẽ bị rồng công kích" Pic="14" />
+  <item ID="1161" Name="Chân long nộ khí Lv1" EffectPic="effect042" Description="Trừ máu của người khác" Pic="-1" />
+  <item ID="1162" Name="Chân long nộ khí Lv2" EffectPic="effect042" Description="Trừ máu của người khác" Pic="-1" />
+  <item ID="1163" Name="Long giác LV1" EffectPic="effect016" Description="Công kích tăng 80, sát thương tăng 10" Pic="9" />
+  <item ID="1164" Name="Long giác LV2" EffectPic="effect016" Description="Công kích tăng 100, sát thương tăng 20" Pic="9" />
+  <item ID="1165" Name="Long giác LV1" EffectPic="" Description="Công kích tăng 80, sát thương tăng 10" Pic="-1" />
+  <item ID="1166" Name="Long giác LV2" EffectPic="" Description="Công kích tăng 100, sát thương tăng 20" Pic="-1" />
+  <item ID="1167" Name="Xoay chuyển tư thế cuồng long" EffectPic="" Description="" Pic="-1" />
+  <item ID="1168" Name="Xoay chuyển tư thế rồng ngủ" EffectPic="" Description="" Pic="-1" />
+  <item ID="1169" Name="Xoay chuyển tư thế nộ long" EffectPic="" Description="(đồng thời dịch chuyển hỏa long ấn kí)" Pic="-1" />
+  <item ID="1170" Name="Nộ long truy kích Lv1" EffectPic="" Description="Mỗi lần đến hiệp của kẻ địch, thú cưng sẽ tiến hành công kích" Pic="-1" />
+  <item ID="1171" Name="Nộ long truy kích Lv2" EffectPic="" Description="Mỗi lần đến hiệp của kẻ địch, thú cưng sẽ tiến hành công kích" Pic="-1" />
+  <item ID="1172" Name="Hồn long bảo hộ Lv1" EffectPic="" Description="Khi bị công kích hồi phục HP" Pic="-1" />
+  <item ID="1173" Name="Hồn long bảo hộ Lv2" EffectPic="" Description="Khi bị công kích hồi phục HP" Pic="-1" />
+  <item ID="1174" Name="Hồn long bảo hộ Lv1" EffectPic="effect037" Description="Khi bị công kích có xác suất nhất định hồi phục 500 HP" Pic="11" />
+  <item ID="1175" Name="Hồn long bảo hộ Lv2" EffectPic="effect037" Description="Khi bị công kích có xác suất nhất định hồi phục 1000 HP" Pic="11" />
+  <item ID="1176" Name="Nộ long truy kích Lv1" EffectPic="effect038" Description="Mỗi lần đến hiệp của kẻ địch, thú cưng sẽ tiến hành công kích" Pic="12" />
+  <item ID="1177" Name="Nộ long truy kích Lv2" EffectPic="effect038" Description="Mỗi lần đến hiệp của kẻ địch, thú cưng sẽ tiến hành công kích" Pic="12" />
+  <item ID="1178" Name="Đạn Liệt Băng Lv1" EffectPic="effect011" Description="Tăng tấn công 100" Pic="1" />
+  <item ID="1179" Name="Đạn Liệt Băng Lv2" EffectPic="effect011" Description="Tăng tấn công 300" Pic="1" />
+  <item ID="1180" Name="Đạn Liệt Băng Lv3" EffectPic="effect011" Description="Tăng tấn công 500" Pic="1" />
+  <item ID="1181" Name="Chắn Thủy Tinh Lv1" EffectPic="effect048" Description="Tăng hộ giáp 100" Pic="8" />
+  <item ID="1182" Name="Chắn Thủy Tinh Lv2" EffectPic="effect048" Description="Tăng hộ giáp 200" Pic="8" />
+  <item ID="1183" Name="Chắn Thủy Tinh Lv3" EffectPic="effect048" Description="Tăng hộ giáp 300" Pic="8" />
+  <item ID="1184" Name="Địa Ngục Băng Giá Lv1" EffectPic="effect049" Description="Tăng sát thương 150" Pic="1" />
+  <item ID="1185" Name="Địa Ngục Băng Giá Lv2" EffectPic="effect049" Description="Tăng sát thương 300" Pic="1" />
+  <item ID="1186" Name="Địa Ngục Băng Giá Lv1" EffectPic="" Description="Mỗi turn giảm 500 HP" Pic="14" />
+  <item ID="1187" Name="Địa Ngục Băng Giá Lv2" EffectPic="" Description="Mỗi turn giảm 800 HP" Pic="14" />
+  <item ID="1188" Name="Nhận kỹ năng 139" EffectPic="" Description="" Pic="-1" />
+  <item ID="1189" Name="Hủy hiệu ứng" EffectPic="" Description="" Pic="-1" />
+  <item ID="1190" Name="Sấm chớp Lv1" EffectPic="" Description="Tăng nhanh nhẹn 300" Pic="5" />
+  <item ID="1191" Name="Sấm chớp Lv2" EffectPic="" Description="Tăng nhanh nhẹn 500" Pic="5" />
+  <item ID="1192" Name="Tim Phụng Hoàng Lv1" EffectPic="" Description="Tăng tấn công 100" Pic="6" />
+  <item ID="1193" Name="Tim Phụng Hoàng Lv2" EffectPic="" Description="Tăng tấn công 300" Pic="6" />
+  <item ID="1194" Name="Nhất Kích Tất Sát Lv1" EffectPic="" Description="Tăng tấn công 200" Pic="1" />
+  <item ID="1195" Name="Nhất Kích Tất Sát Lv2" EffectPic="" Description="Tăng tấn công 300" Pic="1" />
+  <item ID="1196" Name="Nhất Kích Tất Sát Lv1" EffectPic="" Description="Tăng sát thương 100" Pic="6" />
+  <item ID="1197" Name="Nhất Kích Tất Sát Lv2" EffectPic="" Description="Tăng sát thương 150" Pic="6" />
+  <item ID="1198" Name="Nhất Kích Tất Sát Lv1" EffectPic="effect050" Description="Tăng bạo kích 30%" Pic="9" />
+  <item ID="1199" Name="Nhất Kích Tất Sát Lv2" EffectPic="effect050" Description="Tăng bạo kích 50%" Pic="9" />
+  <item ID="1200" Name="Băng Hồn" EffectPic="" Description="Khi đến lượt, tăng 2 điểm ma pháp cho toàn bộ thú cưng cùng phe" Pic="-1" />
+  <item ID="1201" Name="Nọc Độc Lv1" EffectPic="" Description="Sát thương-100" Pic="4" />
+  <item ID="1202" Name="Nọc Độc Lv2" EffectPic="" Description="Sát thương-200" Pic="4" />
+  <item ID="1203" Name="Nọc Độc Lv3" EffectPic="" Description="Sát thương-300" Pic="4" />
+  <item ID="1204" Name="Kiệt Sức Lv1" EffectPic="effect063" Description="Tấn công-300, Phòng thủ-300" Pic="9" />
+  <item ID="1205" Name="Kiệt Sức Lv2" EffectPic="effect063" Description="Tấn công-500, Phòng thủ-500" Pic="9" />
+  <item ID="1206" Name="Kiệt Sức Lv1" EffectPic="" Description="Tấn công-300, Phòng thủ-300" Pic="-1" />
+  <item ID="1207" Name="Kiệt Sức Lv2" EffectPic="" Description="Tấn công-500, Phòng thủ-500" Pic="-1" />
+  <item ID="1208" Name="Mahoraga Lv1" EffectPic="effect060" Description="Giảm 10 điểm ma pháp thú cưng" Pic="-1" />
+  <item ID="1209" Name="Mahoraga Lv2" EffectPic="effect060" Description="Giảm 30 điểm ma pháp thú cưng" Pic="-1" />
+  <item ID="1210" Name="Cuồng bạo Lv1" EffectPic="" Description="Mỗi turn -500 HP" Pic="14" />
+  <item ID="1211" Name="Cuồng bạo Lv2" EffectPic="" Description="Mỗi turn -1000 HP" Pic="14" />
+  <item ID="1212" Name="Cuồng bạo Lv1" EffectPic="effect061" Description="Tỷ lệ bạo kích +20%" Pic="6" />
+  <item ID="1213" Name="Cuồng bạo Lv2" EffectPic="effect061" Description="Tỷ lệ bạo kích +50%" Pic="6" />
+  <item ID="1214" Name="Hắc nha Lv1" EffectPic="" Description="Hộ giáp +100, HP+1500" Pic="3" />
+  <item ID="1215" Name="Hắc nha Lv2" EffectPic="" Description="Hộ giáp +200, HP+3000" Pic="3" />
+  <item ID="1216" Name="Hắc nha Lv1" EffectPic="" Description="Tăng 1500 HP" Pic="-1" />
+  <item ID="1217" Name="Hắc nha Lv2" EffectPic="" Description="Tăng 3000 HP" Pic="-1" />
+  <item ID="1218" Name="Hắc nha Lv1" EffectPic="" Description="" Pic="-1" />
+  <item ID="1219" Name="Hắc nha Lv2" EffectPic="" Description="" Pic="-1" />
+  <item ID="1220" Name="Tuyệt vọng Lv1" EffectPic="" Description="Hộ giáp -100" Pic="7" />
+  <item ID="1221" Name="Tuyệt vọng Lv2" EffectPic="" Description="Hộ giáp -200" Pic="7" />
+  <item ID="1222" Name="Quái vật ngàn năm" EffectPic="effect062" Description="Không thể di chuyển" Pic="9" />
+  <item ID="1223" Name="Chuyển hóa" EffectPic="" Description="Mỗi lần bị tấn công tăng 2 điểm thú cưng" Pic="-1" />
+  <item ID="1224" Name="Địa Ngục Băng Giá Lv1" EffectPic="" Description="Mỗi turn giảm 500 HP" Pic="-1" />
+  <item ID="1225" Name="Địa Ngục Băng Giá Lv2" EffectPic="" Description="Mỗi turn giảm 800 HP" Pic="-1" />
+  <item ID="1226" Name="Cuồng bạo Lv1" EffectPic="" Description="Mỗi turn giảm 500 HP" Pic="-1" />
+  <item ID="1227" Name="Cuồng bạo Lv2" EffectPic="" Description="Mỗi turn giảm 1000 HP" Pic="-1" />
+  <item ID="1228" Name="Trả đòn Lv1" EffectPic="" Description="Phản sát thương" Pic="9" />
+  <item ID="1229" Name="Trả đòn Lv2" EffectPic="" Description="Phản sát thương" Pic="9" />
+  <item ID="1230" Name="Duy trì miêu trảo" EffectPic="effect064" Description="Duy trì gai nhọn" Pic="-1" />
+  <item ID="1231" Name="Giảm 500 điểm sát thương phải chịu" EffectPic="effect065" Description="Giảm 500 điểm sát thương phải chịu" Pic="7" />
+  <item ID="1232" Name="Nhận kĩ năng 10416" EffectPic="" Description="" Pic="-1" />
+  <item ID="1233" Name="Nhận kĩ năng 10417" EffectPic="" Description="" Pic="-1" />
+  <item ID="1234" Name="Nhận kĩ năng 10418" EffectPic="" Description="" Pic="-1" />
+  <item ID="1235" Name="Phản đòn" EffectPic="effect066" Description="Phản đòn" Pic="-1" />
+  <item ID="1236" Name="Phản lại 500 điểm sát thương" EffectPic="effect008" Description="" Pic="-1" />
+  <item ID="1237" Name="Phản lại 800 điểm sát thương" EffectPic="effect008" Description="" Pic="-1" />
+  <item ID="1238" Name="Xung kích Lv1" EffectPic="effect012" Description="Tăng sát thương" Pic="3" />
+  <item ID="1239" Name="Xung kích Lv2" EffectPic="effect012" Description="Tăng sát thương" Pic="3" />
+  <item ID="1240" Name="Xung kích Lv3" EffectPic="effect012" Description="Tăng sát thương" Pic="3" />
+  <item ID="1241" Name="Khiên rắn chắc Lv1" EffectPic="" Description="Tăng hộ giáp" Pic="2" />
+  <item ID="1242" Name="Khiên rắn chắc Lv2" EffectPic="" Description="Tăng hộ giáp" Pic="2" />
+  <item ID="1243" Name="Hồi phục 1500 HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1244" Name="Hồi phục 2500 HP" EffectPic="" Description="" Pic="-1" />
+  <item ID="1245" Name="Nhận 2 điểm ma pháp" EffectPic="" Description="Mỗi lần công kích tăng 2 điểm ma pháp" Pic="-1" />
+  <item ID="1246" Name="Giảm 650 sát thương phải chịu" EffectPic="effect065" Description="Giảm 650 sát thương phải chịu" Pic="7" />
+  <item ID="1247" Name="Giảm 750 sát thương phải chịu" EffectPic="effect065" Description="Giảm 750 sát thương phải chịu" Pic="7" />
+  <item ID="1248" Name="Trị thương Lv1" EffectPic="effect007" Description="Giảm sát thương phải chịu" Pic="7" />
+  <item ID="1249" Name="Trị thương Lv2" EffectPic="effect007" Description="Giảm sát thương phải chịu" Pic="7" />
+  <item ID="1250" Name="Trị thương Lv3" EffectPic="effect007" Description="Giảm sát thương phải chịu" Pic="7" />
+  <item ID="1251" Name="Kim châm kiến Lv1(vuốt mèo)" EffectPic="effect008" Description="Phản sát thương" Pic="-1" />
+  <item ID="1252" Name="Kim châm kiến Lv2 (vuốt mèo)" EffectPic="effect008" Description="Phản sát thương" Pic="-1" />
+  <item ID="1253" Name="Tới lượt bản thân, trừ đối thủ 3 điểm ma pháp" EffectPic="" Description="Ma pháp thú cưng giảm 3 điểm" Pic="-1" />
+  <item ID="1254" Name="Tấn công -100" EffectPic="" Description="Tấn công -100" Pic="-1" />
+  <item ID="1255" Name="Tấn công -200" EffectPic="" Description="Tấn công -200" Pic="-1" />
+  <item ID="1256" Name="Tấn công -300" EffectPic="" Description="Tấn công -300" Pic="-1" />
+  <item ID="1257" Name="Đồng đội +100 hộ giáp" EffectPic="effect067" Description="Hộ giáp +100" Pic="8" />
+  <item ID="1258" Name="Đồng đội +200 hộ giáp" EffectPic="effect067" Description="Hộ giáp +200" Pic="8" />
+  <item ID="1259" Name="Đồng đội hồi phục 800 HP" EffectPic="" Description="Hồi phục HP." Pic="5" />
+  <item ID="1260" Name="Đồng đội hồi phục 1000 HP" EffectPic="" Description="Hồi phục HP." Pic="5" />
+  <item ID="1261" Name="May mắn +300" EffectPic="" Description="May mắn +300" Pic="5" />
+  <item ID="1262" Name="May mắn +500" EffectPic="" Description="May mắn +500" Pic="5" />
+  <item ID="1263" Name="Nhận được 2 điểm ma pháp" EffectPic="" Description="Nhận được 2 điểm ma pháp" Pic="-1" />
+  <item ID="1264" Name="Tất cả đồng đội +100 sát thương" EffectPic="" Description="Tấn công +100" Pic="6" />
+  <item ID="1265" Name="Tất cả đồng đội +300 sát thương" EffectPic="" Description="Tấn công +300" Pic="6" />
+  <item ID="1266" Name="Giảm 10 điểm ma pháp địch" EffectPic="effect068" Description="Giảm 10 điểm ma pháp Pet địch bị bắn trúng" Pic="-1" />
+  <item ID="1267" Name="Giảm 20 điểm ma pháp địch" EffectPic="effect068" Description="Giảm 20 điểm ma pháp Pet địch bị bắn trúng" Pic="-1" />
+  <item ID="1268" Name="Pet đồng đội +5 điểm ma pháp" EffectPic="" Description="Pet đồng đội +5 điểm ma pháp" Pic="-1" />
+  <item ID="1269" Name="Pet đồng đội +10 điểm ma pháp" EffectPic="" Description="Pet đồng đội +10 điểm ma pháp" Pic="-1" />
+  <item ID="1270" Name="Giảm 800 HP người chơi bị bắn trúng" EffectPic="" Description="Giảm 800 HP người chơi bị bắn trúng" Pic="-1" />
+  <item ID="1271" Name="Giảm 1000 HP người chơi bị bắn trúng" EffectPic="" Description="Giảm 1000 HP người chơi bị bắn trúng" Pic="-1" />
+  <item ID="1272" Name="获得192技能" EffectPic="" Description="获得核爆技能192" Pic="-1" />
+  <item ID="1273" Name="获得193技能" EffectPic="" Description="获得核爆技能193" Pic="-1" />
+  <item ID="1274" Name="空技能" EffectPic="" Description="" Pic="-1" />
+  <item ID="2000" Name="血量增加300" EffectPic="" Description="" Pic="-1" />
+  <item ID="2001" Name="护甲增加30" EffectPic="" Description="" Pic="-1" />
+  <item ID="2002" Name="攻击+10" EffectPic="" Description="" Pic="-1" />
+  <item ID="2003" Name="伤害+30" EffectPic="" Description="" Pic="-1" />
+  <item ID="2004" Name="防御+50" EffectPic="" Description="" Pic="-1" />
+  <item ID="2005" Name="敏捷+50" EffectPic="" Description="" Pic="-1" />
+  <item ID="2006" Name="幸运+50" EffectPic="" Description="" Pic="-1" />
+  <item ID="2007" Name="攻击+30" EffectPic="" Description="" Pic="-1" />
+  <item ID="2008" Name="血量增加400" EffectPic="" Description="" Pic="-1" />
+  <item ID="2009" Name="血量增加350" EffectPic="" Description="" Pic="-1" />
+  <item ID="2010" Name="防御+15" EffectPic="" Description="" Pic="-1" />
+  <item ID="2011" Name="防御+35" EffectPic="" Description="" Pic="-1" />
+  <item ID="2012" Name="幸运+10" EffectPic="" Description="" Pic="-1" />
+  <item ID="2013" Name="防御+20" EffectPic="" Description="" Pic="-1" />
+  <item ID="2014" Name="敏捷+20" EffectPic="" Description="" Pic="-1" />
+  <item ID="2015" Name="血量增加310" EffectPic="" Description="" Pic="-1" />
+  <item ID="2016" Name="攻击+15" EffectPic="" Description="" Pic="-1" />
+  <item ID="2017" Name="敏捷+40" EffectPic="" Description="" Pic="-1" />
+  <item ID="2018" Name="降低被暴擊傷害5%" EffectPic="" Description="" Pic="-1" />
+  <item ID="2019" Name="幸运+80" EffectPic="" Description="" Pic="-1" />
+  <item ID="2020" Name="减5%减伤害" EffectPic="" Description="" Pic="-1" />
+  <item ID="3166" Name="Pet Tấn Công Lv1" EffectPic="" Description="Sát thương do Pet Tấn Công X% gây ra" Pic="-1" />
+  <item ID="3167" Name="Pet Tấn Công Lv2" EffectPic="" Description="Sát thương do Pet Tấn Công X% gây ra" Pic="-1" />
+  <item ID="3168" Name="Pet Tấn Công Lv3" EffectPic="" Description="Sát thương do Pet Tấn Công X% gây ra" Pic="-1" />
+  <item ID="3169" Name="Chắc Chắn Bạo Kích" EffectPic="" Description="100% bạo kích" Pic="-1" />
+  <item ID="3170" Name="Sát Thương +120%" EffectPic="" Description="Sát thương +120%" Pic="-1" />
+  <item ID="3171" Name="Xóa Nộ" EffectPic="" Description="Giảm nộ" Pic="-1" />
+  <item ID="3172" Name="Sát Thương +120%" EffectPic="" Description="Sát thương +120%" Pic="-1" />
+  <item ID="3173" Name="Sát Thương +120%" EffectPic="" Description="Sát thương +120%" Pic="-1" />
+  <item ID="3174" Name="Thỏ Giảm Thương" EffectPic="" Description="Tăng Giảm Thương" Pic="106" />
+  <item ID="3175" Name="Thỏ Mạnh Mẽ" EffectPic="" Description="HP tối đa +25%" Pic="107" />
+  <item ID="3176" Name="Hồi 25% HP" EffectPic="" Description="Hồi 25% HP" Pic="-1" />
+  <item ID="3177" Name="Thỏ Chống Đỡ" EffectPic="effect104" Description="20% miễn bị bạo kích" Pic="108" />
+  <item ID="3178" Name="Nhận Kỹ Năng" EffectPic="" Description="" Pic="-1" />
+  <item ID="3179" Name="Thỏ Cầm Khiên" EffectPic="effect093" Description="Khiên" Pic="-1" />
+  <item ID="3180" Name="Thỏ Cứng Cựa" EffectPic="effect065" Description="Sát thương bạo kích phải chịu -15%" Pic="109" />
+  <item ID="3181" Name="Thỏ Cứng Cựa" EffectPic="effect065" Description="Sát thương bạo kích phải chịu -30%" Pic="109" />
+  <item ID="3182" Name="Thỏ Né Tránh" EffectPic="" Description="Miễn dịch phát đạn đầu tiên" Pic="110" />
+  <item ID="2977" Name="Ánh Lửa Bập Bùng" EffectPic="" Description="Sát Thương, Hộ Giáp, Ma Công, Ma Kháng tăng 5%" Pic="278" />
+  <item ID="2978" Name="Ánh Lửa Bập Bùng - Hộ Giáp" EffectPic="" Description="Hộ Giáp tăng 5%" Pic="278" />
+  <item ID="2979" Name="Ánh Lửa Bập Bùng - Ma Công" EffectPic="" Description="Ma Công tăng 5%" Pic="278" />
+  <item ID="2980" Name="Ánh Lửa Bập Bùng - Ma Kháng" EffectPic="" Description="Ma Kháng tăng 5%" Pic="278" />
+  <item ID="2981" Name="Phượng Hoàng Niết Bàn" EffectPic="" Description="Chịu sát thương chí mạng sẽ kích hoạt" Pic="279" />
+</Result>
