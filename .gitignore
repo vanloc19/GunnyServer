@@ -110,4 +110,15 @@ Output/**/*.exe
 Output/**/*.pdb
 Output/**/*.bak
 Output/**/*Log.txt
+Output/**/*.config
+Output/**/*.xml
+Output/**/*.manifest
+Output/**/*.application
+Output/**/*.1
+Output/**/*.2
+Output/**/*.compressed
+Output/center/
+Output/fight/
+Output/road/
+!Output/README.md
 
