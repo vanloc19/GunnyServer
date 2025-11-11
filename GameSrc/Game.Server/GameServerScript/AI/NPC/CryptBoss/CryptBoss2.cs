@@ -1,0 +1,192 @@
+using Game.Logic;
+using Game.Logic.AI;
+using Game.Logic.Phy.Maps;
+using Game.Logic.Phy.Object;
+using SqlDataProvider.Data;
+using System;
+using System.Collections.Generic;
+
+namespace GameServerScript.AI.NPC
+{
+	public class CryptBoss2 : ABrain
+	{
+		private int int_0;
+
+		public int currentCount;
+
+		public int Dander;
+
+		private PhysicalObj physicalObj_0;
+
+		private Player player_0;
+
+		public CryptBoss2()
+		{
+			
+			
+		}
+
+		private void method_0()
+		{
+			base.Body.PlayMovie("beatA", 3000, 0);
+			base.Body.CallFuction(new LivingCallBack(this.method_1), 4000);
+		}
+
+		private void method_1()
+		{
+			this.player_0 = base.Game.FindRandomPlayer();
+			if (this.player_0 != null)
+			{
+				((PVEGame)base.Game).SendGameFocus(this.player_0, 0, 1000);
+				this.physicalObj_0 = ((PVEGame)base.Game).Createlayer(this.player_0.X, this.player_0.Y, "moive", "asset.game.eleven.055a", "out", 1, 1);
+				base.Body.CallFuction(new LivingCallBack(this.method_2), 2000);
+				base.Body.CallFuction(new LivingCallBack(this.method_11), 1000);
+			}
+		}
+
+		private void method_10()
+		{
+			base.Body.Direction = base.Game.FindlivingbyDir(base.Body);
+		}
+
+		private void method_11()
+		{
+			base.Body.CurrentDamagePlus = 0.9f;
+			base.Body.RangeAttacking(0, base.Game.Map.Info.ForegroundWidth + 1, "cry", 0, null);
+		}
+
+		private void method_2()
+		{
+			if (this.physicalObj_0 != null)
+			{
+				base.Game.RemovePhysicalObj(this.physicalObj_0, true);
+				this.physicalObj_0 = null;
+			}
+		}
+
+		private void method_3()
+		{
+			Player player = base.Game.FindNearestPlayer(0, 1500);
+			if (player != null)
+			{
+				base.Body.MoveTo(player.X + 110, player.Y, "fly", 1000, "", 18, new LivingCallBack(this.method_4));
+			}
+		}
+
+		private void method_4()
+		{
+			base.Body.CurrentDamagePlus = 0.7f;
+			base.Body.Direction = base.Game.FindlivingbyDir(base.Body);
+			base.Body.PlayMovie("beatC", 2500, 0);
+			base.Body.CallFuction(new LivingCallBack(this.method_5), 3700);
+		}
+
+		private void method_5()
+		{
+			base.Body.RangeAttacking(0, base.Game.Map.Info.ForegroundWidth + 1, "cry", 0, null);
+			base.Body.CallFuction(new LivingCallBack(this.method_9), 1500);
+		}
+
+		private void method_6()
+		{
+			base.Body.PlayMovie("beatB", 3000, 0);
+			base.Body.CallFuction(new LivingCallBack(this.method_7), 4000);
+		}
+
+		private void method_7()
+		{
+			this.player_0 = base.Game.FindRandomPlayer();
+			if (this.player_0 != null)
+			{
+				((PVEGame)base.Game).SendGameFocus(this.player_0, 0, 1000);
+				this.physicalObj_0 = ((PVEGame)base.Game).Createlayer(this.player_0.X, this.player_0.Y, "moive", "asset.game.eleven.055b", "out", 1, 1);
+				base.Body.CallFuction(new LivingCallBack(this.method_8), 2000);
+				base.Body.CallFuction(new LivingCallBack(this.method_11), 1000);
+			}
+		}
+
+		private void method_8()
+		{
+			if (this.physicalObj_0 != null)
+			{
+				base.Game.RemovePhysicalObj(this.physicalObj_0, true);
+				this.physicalObj_0 = null;
+			}
+		}
+
+		private void method_9()
+		{
+			base.Body.Direction = base.Game.FindlivingbyDir(base.Body);
+			base.Body.MoveTo(796, 361, "fly", 1000, "", 18, new LivingCallBack(this.method_10));
+		}
+
+		public override void OnBeginNewTurn()
+		{
+			base.OnBeginNewTurn();
+			base.Body.CurrentDamagePlus = 1f;
+			base.Body.CurrentShootMinus = 1f;
+			base.Body.SetRect(((SimpleBoss)base.Body).NpcInfo.X, ((SimpleBoss)base.Body).NpcInfo.Y, ((SimpleBoss)base.Body).NpcInfo.Width, ((SimpleBoss)base.Body).NpcInfo.Height);
+			if (base.Body.Direction == -1)
+			{
+				base.Body.SetRect(((SimpleBoss)base.Body).NpcInfo.X, ((SimpleBoss)base.Body).NpcInfo.Y, ((SimpleBoss)base.Body).NpcInfo.Width, ((SimpleBoss)base.Body).NpcInfo.Height);
+				return;
+			}
+			base.Body.SetRect(-((SimpleBoss)base.Body).NpcInfo.X - ((SimpleBoss)base.Body).NpcInfo.Width, ((SimpleBoss)base.Body).NpcInfo.Y, ((SimpleBoss)base.Body).NpcInfo.Width, ((SimpleBoss)base.Body).NpcInfo.Height);
+		}
+
+		public override void OnBeginSelfTurn()
+		{
+			base.OnBeginSelfTurn();
+		}
+
+		public override void OnCreated()
+		{
+			base.OnCreated();
+		}
+
+		public override void OnStartAttacking()
+		{
+			base.Body.Direction = base.Game.FindlivingbyDir(base.Body);
+			bool flag = false;
+			foreach (Player allFightPlayer in base.Game.GetAllFightPlayers())
+			{
+				if (!allFightPlayer.IsLiving || allFightPlayer.X <= base.Body.X - 150 || allFightPlayer.X >= base.Body.X + 150)
+				{
+					continue;
+				}
+				flag = true;
+			}
+			if (flag)
+			{
+				this.YtghgEhloVI(base.Body.X - 150, base.Body.X + 150);
+				return;
+			}
+			if (this.int_0 == 0)
+			{
+				this.method_0();
+				this.int_0++;
+				return;
+			}
+			if (this.int_0 != 1)
+			{
+				this.method_3();
+				this.int_0 = 0;
+				return;
+			}
+			this.method_6();
+			this.int_0++;
+		}
+
+		public override void OnStopAttacking()
+		{
+			base.OnStopAttacking();
+		}
+
+		private void YtghgEhloVI(int int_1, int int_2)
+		{
+			base.Body.CurrentDamagePlus = 1000f;
+			base.Body.PlayMovie("beatC", 1000, 0);
+			base.Body.RangeAttacking(int_1, int_2, "cry", 4000, null);
+		}
+	}
+}

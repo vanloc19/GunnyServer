@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\2020-Fixed\Files\Center.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B9D236F-8F73-4821-BB1C-5378C8B8FF1E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Center.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Center.Server</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Center.Server.Commands\GamePropertiesCommand.cs" />
+    <Compile Include="Center.Server.Managers\MacroDropMgr.cs" />
+    <Compile Include="Center.Server.Statics\LogMgr.cs" />
+    <Compile Include="Center.Server\CenterServer.cs" />
+    <Compile Include="Center.Server\CenterServerConfig.cs" />
+    <Compile Include="Center.Server\CenterService.cs" />
+    <Compile Include="Center.Server\ConsortiaBossMgr.cs" />
+    <Compile Include="Center.Server\ConsortiaMrg.cs" />
+    <Compile Include="Center.Server\eMailRespose.cs" />
+    <Compile Include="Center.Server\eMessageType.cs" />
+    <Compile Include="Center.Server\ePackageType.cs" />
+    <Compile Include="Center.Server\ePlayerState.cs" />
+    <Compile Include="Center.Server\ICenterService.cs" />
+    <Compile Include="Center.Server\LoginMgr.cs" />
+    <Compile Include="Center.Server\Player.cs" />
+    <Compile Include="Center.Server\ServerClient.cs" />
+    <Compile Include="Center.Server\ServerData.cs" />
+    <Compile Include="Center.Server\ServerMgr.cs" />
+    <Compile Include="Center.Server\WorldMgr.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Center.Server\config.logconfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj">
+      <Project>{cbe1ce5f-9d38-4dd3-8483-a4fccb249bd0}</Project>
+      <Name>Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Base\Game.Base.csproj">
+      <Project>{730aa9d7-e4f6-4e17-9e63-6a4a9df20530}</Project>
+      <Name>Game.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{62e1d8ce-3e62-408b-8742-b45cec73340a}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

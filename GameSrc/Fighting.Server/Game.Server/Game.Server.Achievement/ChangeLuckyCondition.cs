@@ -1,0 +1,29 @@
+using Game.Server.GameObjects;
+using SqlDataProvider.Data;
+
+namespace Game.Server.Achievement
+{
+	public class ChangeLuckyCondition : BaseUserRecord
+	{
+		public ChangeLuckyCondition(GamePlayer player, int type)
+			: base(player, type)
+		{
+			AddTrigger(player);
+		}
+
+		public override void AddTrigger(GamePlayer player)
+		{
+			player.PlayerPropertyChanged += player_PlayerPropertyChanged;
+		}
+
+		private void player_PlayerPropertyChanged(PlayerInfo character)
+		{
+			m_player.AchievementInventory.UpdateUserAchievement(m_type, character.Luck, 1);
+		}
+
+		public override void RemoveTrigger(GamePlayer player)
+		{
+			player.PlayerPropertyChanged -= player_PlayerPropertyChanged;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataProvider", "SqlDataProvider.csproj", "{62E1D8CE-3E62-408B-8742-B45CEC73340A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E1D8CE-3E62-408B-8742-B45CEC73340A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E1D8CE-3E62-408B-8742-B45CEC73340A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E1D8CE-3E62-408B-8742-B45CEC73340A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E1D8CE-3E62-408B-8742-B45CEC73340A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

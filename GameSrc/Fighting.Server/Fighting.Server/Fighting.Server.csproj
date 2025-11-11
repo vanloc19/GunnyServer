@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\2020-Fixed\Files\Fighting.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DFE6FF5-5EC3-4508-AE2C-E534A9891720}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Fighting.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Fighting.Server</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fighting.Server\Config.logconfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fighting.Server.GameObjects\ProxyPlayer.cs" />
+    <Compile Include="Fighting.Server.GameObjects\ProxyPlayerInfo.cs" />
+    <Compile Include="Fighting.Server.Games\BattleGame.cs" />
+    <Compile Include="Fighting.Server.Games\GameMgr.cs" />
+    <Compile Include="Fighting.Server.Guild\GuildMgr.cs" />
+    <Compile Include="Fighting.Server.Rooms\AddRoomAction.cs" />
+    <Compile Include="Fighting.Server.Rooms\IAction.cs" />
+    <Compile Include="Fighting.Server.Rooms\ProxyRoom.cs" />
+    <Compile Include="Fighting.Server.Rooms\ProxyRoomMgr.cs" />
+    <Compile Include="Fighting.Server.Rooms\RemoveRoomAction.cs" />
+    <Compile Include="Fighting.Server.Servers\ServerMgr.cs" />
+    <Compile Include="Fighting.Server\FightServer.cs" />
+    <Compile Include="Fighting.Server\FightServerConfig.cs" />
+    <Compile Include="Fighting.Server\ServerClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj">
+      <Project>{cbe1ce5f-9d38-4dd3-8483-a4fccb249bd0}</Project>
+      <Name>Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Base\Game.Base.csproj">
+      <Project>{730aa9d7-e4f6-4e17-9e63-6a4a9df20530}</Project>
+      <Name>Game.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Logic\Game.Logic.csproj">
+      <Project>{11cc0728-b570-416e-b472-befab26ad182}</Project>
+      <Name>Game.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Server\Game.Server.csproj">
+      <Project>{20b9aa4e-2369-40d6-959b-ed94b765f42a}</Project>
+      <Name>Game.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{62e1d8ce-3e62-408b-8742-b45cec73340a}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

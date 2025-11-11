@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\2020-Fixed\Files\Bussiness.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBE1CE5F-9D38-4DD3-8483-A4FCCB249BD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Bussiness</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Bussiness</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net">
+      <HintPath>..\..\SV-GunTuoiTho\Road.Service\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bussiness.Helpers\DictionaryHelper.cs" />
+    <Compile Include="Bussiness.Helpers\Functions.cs" />
+    <Compile Include="Bussiness.Managers\AccumulActiveLoginMgr.cs" />
+    <Compile Include="Bussiness.Managers\AvatarColectionMgr.cs" />
+    <Compile Include="Bussiness.Managers\FightSpiritTemplateMgr.cs" />
+    <Compile Include="Bussiness.Managers\GodCardGroupMgr.cs" />
+    <Compile Include="Bussiness.Managers\GodCardMgr.cs" />
+    <Compile Include="Bussiness.Managers\GodCardPointRewardMgr.cs" />
+    <Compile Include="Bussiness.Managers\LoveLevelMgr.cs" />
+    <Compile Include="Bussiness.Managers\NewTitleMgr.cs" />
+    <Compile Include="Bussiness.Managers\PetMoePropertyMgr.cs" />
+    <Compile Include="Bussiness.Managers\QiYuanAwardMgr.cs" />
+    <Compile Include="Bussiness.Managers\SetsBuildTempMgr.cs" />
+    <Compile Include="Bussiness.Managers\TotemHonorMgr.cs" />
+    <Compile Include="Bussiness.Managers\TotemMgr.cs" />
+    <Compile Include="Bussiness.Protocol\QiYuanPackageType.cs" />
+    <Compile Include="Bussiness\DateTimeExtensions.cs" />
+    <Compile Include="Bussiness\MarshalBussiness.cs" />
+    <Compile Include="Game.Server.Managers\ConsortiaLevelMgr.cs" />
+    <Compile Include="Bussiness\ActiveBussiness.cs" />
+    <Compile Include="Bussiness\AreaBussiness.cs" />
+    <Compile Include="Bussiness\Base64.cs" />
+    <Compile Include="Bussiness\BaseBussiness.cs" />
+    <Compile Include="Bussiness\BaseCrossBussiness.cs" />
+    <Compile Include="Bussiness\BuffType.cs" />
+    <Compile Include="Bussiness\ChatInputView.cs" />
+    <Compile Include="Bussiness\CheckCode.cs" />
+    <Compile Include="Bussiness\ConsortiaBussiness.cs" />
+    <Compile Include="Bussiness\CookieInfoBussiness.cs" />
+    <Compile Include="Bussiness\CountBussiness.cs" />
+    <Compile Include="Bussiness\GameProperties.cs" />
+    <Compile Include="Bussiness\IniReader.cs" />
+    <Compile Include="Bussiness\ItemRecordBussiness.cs" />
+    <Compile Include="Bussiness\LanguageMgr.cs" />
+    <Compile Include="Bussiness\ManageBussiness.cs" />
+    <Compile Include="Bussiness\MapBussiness.cs" />
+    <Compile Include="Bussiness\MemberShipBussiness.cs" />
+    <Compile Include="Bussiness\OrderBussiness.cs" />
+    <Compile Include="Bussiness\PlayerBussiness.cs" />
+    <Compile Include="Bussiness\ProduceBussiness.cs" />
+    <Compile Include="Bussiness\PveBussiness.cs" />
+    <Compile Include="Bussiness\RandomSafe.cs" />
+    <Compile Include="Bussiness\ServiceBussiness.cs" />
+    <Compile Include="Bussiness\StaticFunction.cs" />
+    <Compile Include="Bussiness\Statistics.cs" />
+    <Compile Include="Bussiness\ThreadSafeRandom.cs" />
+    <Compile Include="Bussiness\UserInfoBussiness.cs" />
+    <Compile Include="Bussiness\XmlExtends.cs" />
+    <Compile Include="Bussiness.WebLogin\ChenckValidateRequest.cs" />
+    <Compile Include="Bussiness.WebLogin\ChenckValidateRequestBody.cs" />
+    <Compile Include="Bussiness.WebLogin\ChenckValidateResponse.cs" />
+    <Compile Include="Bussiness.WebLogin\ChenckValidateResponseBody.cs" />
+    <Compile Include="Bussiness.CenterService\ServerData.cs" />
+    <Compile Include="Bussiness.CenterService\ICenterService.cs" />
+    <Compile Include="Bussiness.CenterService\ICenterServiceChannel.cs" />
+    <Compile Include="Bussiness.CenterService\CenterServiceClient.cs" />
+    <Compile Include="Bussiness.Protocol\eDropType.cs" />
+    <Compile Include="Bussiness.Protocol\eReloadType.cs" />
+    <Compile Include="Bussiness.Managers\EventLiveMgr.cs" />
+    <Compile Include="Bussiness.Managers\AchievementMgr.cs" />
+    <Compile Include="Bussiness.Managers\ActiveMgr.cs" />
+    <Compile Include="Bussiness.Managers\ConsortiaExtraMgr.cs" />
+    <Compile Include="Bussiness.Managers\DropMgr.cs" />
+    <Compile Include="Bussiness.Managers\EventAwardMgr.cs" />
+    <Compile Include="Bussiness.Managers\GoldEquipMgr.cs" />
+    <Compile Include="Bussiness.Managers\ItemBoxMgr.cs" />
+    <Compile Include="Bussiness.Managers\ItemMgr.cs" />
+    <Compile Include="Bussiness.Managers\QQTipsMgr.cs" />
+    <Compile Include="Bussiness.Managers\QuestMgr.cs" />
+    <Compile Include="Bussiness.Managers\ShopMgr.cs" />
+    <Compile Include="Bussiness.Managers\SubActiveMgr.cs" />
+    <Compile Include="Bussiness.Managers\WorldEventMgr.cs" />
+    <Compile Include="Bussiness.Interface\BaseInterface.cs" />
+    <Compile Include="Bussiness.Interface\DWInterface.cs" />
+    <Compile Include="Bussiness.Interface\InterfaceType.cs" />
+    <Compile Include="Bussiness.Interface\QYInterface.cs" />
+    <Compile Include="Bussiness.Interface\SRInterface.cs" />
+    <Compile Include="Bussiness.WebLogin\Get_UserSexRequest.cs" />
+    <Compile Include="Bussiness.WebLogin\Get_UserSexRequestBody.cs" />
+    <Compile Include="Bussiness.WebLogin\Get_UserSexResponse.cs" />
+    <Compile Include="Bussiness.WebLogin\Get_UserSexResponseBody.cs" />
+    <Compile Include="Bussiness.WebLogin\PassPortSoap.cs" />
+    <Compile Include="Bussiness.WebLogin\PassPortSoapChannel.cs" />
+    <Compile Include="Bussiness.WebLogin\PassPortSoapClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Base\Game.Base.csproj">
+      <Project>{730aa9d7-e4f6-4e17-9e63-6a4a9df20530}</Project>
+      <Name>Game.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{62e1d8ce-3e62-408b-8742-b45cec73340a}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
