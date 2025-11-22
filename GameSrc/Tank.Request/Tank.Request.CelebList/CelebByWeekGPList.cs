@@ -1,7 +1,10 @@
 using System.Reflection;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Linq;
 using log4net;
+using Road.Flash;
+using Bussiness;
 
 namespace Tank.Request.CelebList
 {
@@ -15,21 +18,44 @@ namespace Tank.Request.CelebList
 
 		public void ProcessRequest(HttpContext context)
 		{
-			context.Response.Write(Build(context));
+			// Prevent caching to ensure fresh data
+			context.Response.Cache.SetCacheability(HttpCacheability.NoCache);
+			context.Response.Cache.SetNoStore();
+			context.Response.ContentType = "application/octet-stream";
+
+			// Return same data as CelebByGpList (Tổng) - always fresh from database
+			XElement result = CelebByGpList.BuildXml();
+			if (result != null)
+			{
+				context.Response.BinaryWrite(StaticFunction.Compress(result.ToString(check: false)));
+			}
+			else
+			{
+				context.Response.Write("CelebByWeekGPList Fail!");
+			}
 		}
 
 		public static string Build(HttpContext context)
 		{
-			if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-			{
-				return "CelebByWeekGPList Fail!";
-			}
+			// Removed IP check to allow public access from game client
+			// if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
+			// {
+			//     return "CelebByWeekGPList Fail!";
+			// }
 			return Build();
 		}
 
 		public static string Build()
 		{
-			return csFunction.BuildCelebUsers("CelebByWeekGPList", 0, "CelebByWeekGPList_Out");
+			// Use same data as CelebByGpList (Tổng) but create CelebByWeekGPList.xml file
+			XElement result = CelebByGpList.BuildXml();
+			return csFunction.CreateCompressXml(result, "CelebByWeekGPList", isCompress: true);
+		}
+
+		public static XElement BuildXml()
+		{
+			// Use same data as CelebByGpList (Tổng)
+			return CelebByGpList.BuildXml();
 		}
 	}
 }
