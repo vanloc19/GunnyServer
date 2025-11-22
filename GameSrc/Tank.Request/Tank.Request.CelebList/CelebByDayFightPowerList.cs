@@ -1,7 +1,10 @@
 using System.Reflection;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Linq;
 using log4net;
+using Road.Flash;
+using Bussiness;
 
 namespace Tank.Request.CelebList
 {
@@ -15,21 +18,40 @@ namespace Tank.Request.CelebList
 
 		public void ProcessRequest(HttpContext context)
 		{
-			context.Response.Write(Build(context));
+			// Return compressed XML directly to client (always fresh from database)
+			XElement result = BuildXml();
+			if (result != null)
+			{
+				// Use ToString(check: false) extension method from Bussiness.XmlExtends
+				context.Response.BinaryWrite(StaticFunction.Compress(result.ToString(check: false)));
+			}
+			else
+			{
+				context.Response.Write("CelebByDayFightPowerList Fail!");
+			}
 		}
 
 		public static string Build(HttpContext context)
 		{
-			if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-			{
-				return "CelebByDayFightPowerList Fail!";
-			}
+			// Removed IP check to allow public access from game client
+			// if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
+			// {
+			//     return "CelebByDayFightPowerList Fail!";
+			// }
 			return Build();
 		}
 
 		public static string Build()
 		{
+			// Order 6 = FightPower desc (total FightPower ranking)
+			// Create both compressed and uncompressed versions
 			return csFunction.BuildCelebUsers("CelebByDayFightPowerList", 6, "CelebByDayFightPowerList_Out");
+		}
+
+		public static XElement BuildXml()
+		{
+			// Build XML directly from database for client response (order 6 = FightPower desc)
+			return csFunction.BuildCelebUsersXml(6);
 		}
 	}
 }

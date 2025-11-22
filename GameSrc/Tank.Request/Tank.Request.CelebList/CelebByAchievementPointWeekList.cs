@@ -1,7 +1,10 @@
 using System.Reflection;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Linq;
 using log4net;
+using Road.Flash;
+using Bussiness;
 
 namespace Tank.Request.CelebList
 {
@@ -15,21 +18,39 @@ namespace Tank.Request.CelebList
 
 		public void ProcessRequest(HttpContext context)
 		{
-			context.Response.Write(Build(context));
+			// Prevent caching to ensure fresh data
+			context.Response.Cache.SetCacheability(HttpCacheability.NoCache);
+			context.Response.Cache.SetNoStore();
+			context.Response.ContentType = "application/octet-stream";
+
+			// Return same data as CelebByAchievementPointList (Tổng) - always fresh from database
+			XElement result = CelebByAchievementPointList.BuildXml();
+			if (result != null)
+			{
+				context.Response.BinaryWrite(StaticFunction.Compress(result.ToString(check: false)));
+			}
+			else
+			{
+				context.Response.Write("CelebByAchievementPointWeekList Fail!");
+			}
 		}
 
 		public static string Build(HttpContext context)
 		{
-			if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-			{
-				return "CelebByAchievementPointWeekList Fail!";
-			}
 			return Build();
 		}
 
 		public static string Build()
 		{
-			return csFunction.BuildCelebUsers("CelebByAchievementPointWeekList", 11, "CelebByAchievementPointWeekList_Out");
+			// Use same data as CelebByAchievementPointList (Tổng) but create CelebByAchievementPointWeekList.xml file
+			XElement result = CelebByAchievementPointList.BuildXml();
+			return csFunction.CreateCompressXml(result, "CelebByAchievementPointWeekList", isCompress: true);
+		}
+
+		public static XElement BuildXml()
+		{
+			// Use same data as CelebByAchievementPointList (Tổng)
+			return CelebByAchievementPointList.BuildXml();
 		}
 	}
 }

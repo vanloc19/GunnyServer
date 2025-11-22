@@ -20,10 +20,11 @@ namespace Tank.Request.CelebList
 
         public static string Build(HttpContext context)
         {
-            if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-            {
-                return "CelebByDayGiftGp Fail!";
-            }
+            // Removed IP check to allow public access from game client
+            // if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
+            // {
+            //     return "CelebByDayGiftGp Fail!";
+            // }
             return Build();
         }
 
@@ -43,3 +44,4 @@ namespace Tank.Request.CelebList
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
     }
 }
+
