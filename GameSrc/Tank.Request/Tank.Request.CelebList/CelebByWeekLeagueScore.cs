@@ -22,10 +22,7 @@ namespace Tank.Request.CelebList
 
         public static string Build(HttpContext context)
         {
-            if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-            {
-                return "CelebByWeekLeagueScore Fail!";
-            }
+            // Public handler - no IP check needed for game client
             return Build();
         }
 
