@@ -20,10 +20,11 @@ namespace Tank.Request.CelebList
 
 		public static string Build(HttpContext context)
 		{
-			if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
-			{
-				return "CelebByWeekGiftGP Fail!";
-			}
+			// Removed IP check to allow public access from game client
+			// if (!csFunction.ValidAdminIP(context.Request.UserHostAddress))
+			// {
+			//     return "CelebByWeekGiftGP Fail!";
+			// }
 			return Build();
 		}
 
