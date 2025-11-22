@@ -84,6 +84,8 @@ composer.lock
 .env
 .env.backup
 .env.production
+.env.example
+**/.env.example
 
 # OS files
 .DS_Store
@@ -96,6 +98,8 @@ Desktop.ini
 *.swp
 *.swo
 *~
+nul
+**/nul
 
 # Archive files
 *.rar
@@ -121,4 +125,16 @@ Output/center/
 Output/fight/
 Output/road/
 !Output/README.md
+
+# Temporary XML files (generated files, không commit)
+GameSrc/Tank.Request/**/*.xml
+GameSrc/Tank.Request/**/*_Out.xml
+GameSrc/Tank.Request/**/*_out.xml
+GameSrc/Tank.Request/**/*old.xml
+!GameSrc/Tank.Request/**/*.ashx
+!GameSrc/Tank.Request/**/*.aspx
+
+# NuGet packages (should be restored, not committed)
+**/packages/
+GameSrc/**/packages/
 
